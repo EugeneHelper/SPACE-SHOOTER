@@ -7,34 +7,38 @@ public class MoveController : MonoBehaviour, IReciveSignal
     private float _speed;
     //private MoveSignal _moveSignal;
 
-    private MoveShipSignal _inputSignal;
-    
+    private InputForMoveSignal _inputForMoveSignal;
+    private MoveShipSignal _moveShipSignal;
+
     [Inject]
-    public void Construct(MoveShipSignal inputSignal)
+    public void Construct(InputForMoveSignal inputSignal, MoveShipSignal moveShipSignal)
     {
-        _inputSignal = inputSignal;
-        
+        _inputForMoveSignal = inputSignal;
+        _moveShipSignal = moveShipSignal;
+
         SubsribeTo();
     }
 
     public void OnInputReceived(object[] args)
     {
-        Vector3 vector = (Vector3) args[0];
-        Debug.Log("I invoked signal" + vector);
-       // Vector3 newPosition = transform.position + direction * _speed * Time.deltaTime;
-       // _moveSignal.Fire(newPosition);
+        Debug.Log(GetType());
+        Vector3 directionOfMove = (Vector3) args[0];
+
+        
+        Vector3 newPosition = transform.position + directionOfMove * _speed * Time.deltaTime;
+        _moveShipSignal.Invoke(newPosition);
     }
-    
+
     public void SubsribeTo()
     {
-        _inputSignal.Subscribe(OnInputReceived);
+        _inputForMoveSignal.Subscribe(OnInputReceived);
     }
-    
+
     public void UnSubscribeTo()
     {
-        _inputSignal.Unsubscribe(OnInputReceived);
+        _inputForMoveSignal.Unsubscribe(OnInputReceived);
     }
-    
+
     private void OnDestroy()
     {
         UnSubscribeTo();

@@ -15,7 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Signals/Signal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputSignal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputForMoveSignal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Products/ProductContainer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -30,11 +30,14 @@
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/SenderOfSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/IReciveSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/ReceiverOfSignal.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipView.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputForMoveSignal.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/MoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" />
       </list>
     </option>
   </component>
@@ -78,7 +81,7 @@
       <updated>1718192225154</updated>
       <workItem from="1718192225156" duration="1443000" />
       <workItem from="1718204676888" duration="1059000" />
-      <workItem from="1718205893660" duration="14750000" />
+      <workItem from="1718205893660" duration="16061000" />
     </task>
     <servers />
   </component>

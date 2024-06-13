@@ -20,18 +20,19 @@ public class ShipController : MonoBehaviour, IReciveSignal
 
         SubsribeTo();
     }
-    
+
 
     private void OnMoveReceived(object[] args)
     {
+        Debug.Log(GetType() + "I move uvove!!");
         Vector3 v3 = (Vector3) args[0];
-        // _model.UpdatePosition(v3);
-        // _view.UpdatePosition(v3);
+        _model.UpdatePosition(v3);
+        _view.UpdatePosition(v3);
     }
-    
-/// <summary>
-/// Subscribes
-/// </summary>
+
+    /// <summary>
+    /// Subscribes
+    /// </summary>
     public void SubsribeTo()
     {
         _moveShipSignal.Subscribe(OnMoveReceived);
@@ -41,7 +42,7 @@ public class ShipController : MonoBehaviour, IReciveSignal
     {
         _moveShipSignal.Unsubscribe(OnMoveReceived);
     }
-    
+
     private void OnDestroy()
     {
         UnSubscribeTo();
