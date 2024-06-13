@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Eugene\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Eugene\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="D:\A-Devs\NonUnityBuild\Bin\Debug" t="ExcludeRecursive" />
+    <e p="D:\A-Devs\SPACE SHOOTER\Assets\Plugins\Zenject\OptionalExtras\Signals" t="IncludeRecursive">
+      <e p="Internal" t="Include">
+        <e p="Binders" t="Include">
+          <e p="BindSignal" t="Include">
+            <e p="BindSignalFromBinder.cs" t="Include" />
+            <e p="BindSignalFromBinder.cs.meta" t="Include" />
+            <e p="BindSignalIdToBinder.cs" t="Include" />
+            <e p="BindSignalToBinder.cs" t="Include" />
+            <e p="BindSignalToBinder.cs.meta" t="Include" />
+            <e p="SignalCallbackWithLookupWrapper.cs" t="Include" />
+            <e p="SignalCallbackWithLookupWrapper.cs.meta" t="Include" />
+            <e p="SignalCallbackWrapper.cs" t="Include" />
+            <e p="SignalCallbackWrapper.cs.meta" t="Include" />
+          </e>
+          <e p="BindSignal.meta" t="Include" />
+          <e p="DeclareSignal" t="Include">
+            <e p="DeclareSignalAsyncTickPriorityCopyBinder.cs" t="Include" />
+            <e p="DeclareSignalAsyncTickPriorityCopyBinder.cs.meta" t="Include" />
+            <e p="DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.cs" t="Include" />
+            <e p="DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder.cs" t="Include" />
+            <e p="DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder.cs.meta" t="Include" />
+            <e p="SignalBindingBindInfo.cs" t="Include" />
+            <e p="SignalDeclarationBindInfo.cs" t="Include" />
+            <e p="SignalDeclarationBindInfo.cs.meta" t="Include" />
+          </e>
+          <e p="DeclareSignal.meta" t="Include" />
+          <e p="SignalCopyBinder.cs" t="Include" />
+          <e p="SignalCopyBinder.cs.meta" t="Include" />
+          <e p="SignalExtensions.cs" t="Include" />
+          <e p="SignalExtensions.cs.meta" t="Include" />
+          <e p="SignalTickPriorityCopyBinder.cs" t="Include" />
+          <e p="SignalTickPriorityCopyBinder.cs.meta" t="Include" />
+        </e>
+        <e p="Binders.meta" t="Include" />
+        <e p="SignalDeclaration.cs" t="Include" />
+        <e p="SignalDeclaration.cs.meta" t="Include" />
+        <e p="SignalSubscription.cs" t="Include" />
+        <e p="SignalSubscription.cs.meta" t="Include" />
+        <e p="SignalSubscriptionId.cs" t="Include" />
+        <e p="SignalSubscriptionId.cs.meta" t="Include" />
+      </e>
+      <e p="Main" t="Include">
+        <e p="SignalBus.cs" t="Include" />
+        <e p="SignalBus.cs.meta" t="Include" />
+        <e p="SignalBusInstaller.cs" t="Include" />
+        <e p="SignalBusInstaller.cs.meta" t="Include" />
+        <e p="SignalDeclarationAsyncInitializer.cs" t="Include" />
+        <e p="SignalDeclarationAsyncInitializer.cs.meta" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Zenject-Signals.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="D:\NonUnityBuild\Temp\Debug" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d52c188-c1a2-4e50-aa51-e95c58143726" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Flow/Options/UnitBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Signals/ISignal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/ReceiverOfSignal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Signals/Signal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputSignal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Products/ProductContainer.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/FlySceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/GameInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/SignalReceiver.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/ISignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/MoveShipSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/Signal.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/SenderOfSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/IReciveSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/ReceiverOfSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/MoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2hmHB6dWg4fb5vNIdbnhXAU8Nv3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d52c188-c1a2-4e50-aa51-e95c58143726" name="Default Changelist" comment="" />
+      <created>1718192225154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718192225154</updated>
+      <workItem from="1718192225156" duration="1443000" />
+      <workItem from="1718204676888" duration="1059000" />
+      <workItem from="1718205893660" duration="14750000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="601" y="114" key="RiderGenerateDialog" timestamp="1718294267908">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="601" y="114" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1718294267908" />
+  </component>
+</project>
