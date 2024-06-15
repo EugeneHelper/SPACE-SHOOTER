@@ -10,7 +10,7 @@ public class ShipModel
     {
         Position = Vector3.zero;
         Destination = new Vector3(0, 0, 100); // Точка Б
-        Speed = 10f; // Скорость корабля
+        Speed = 50f; // Скорость корабля
     }
 
     public void UpdatePosition(Vector3 newPosition)
