@@ -2,8 +2,8 @@
 
 public class ShipModel
 {
-    private Vector3 Position { get; set; }
-    public Vector3 Destination { get; private set; }
+    public Vector3 Position { get; private set; }
+    private Vector3 Destination { get; set; }
     public float Speed { get; private set; }
 
     public ShipModel()

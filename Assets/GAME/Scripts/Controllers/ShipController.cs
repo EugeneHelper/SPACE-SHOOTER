@@ -8,26 +8,33 @@ public class ShipController : MonoBehaviour, IReciveSignal
 {
     private ShipModel _model;
     private ShipView _view;
+    
+    private MoveController _moveController;
 
-    private MoveShipSignal _moveShipSignal;
+    private InputForMoveSignal _inputForMoveSignal;
+
 
     [Inject]
-    public void Construct(MoveShipSignal moveSignal)
+    public void Construct
+    (
+        MoveController moveController,
+        InputForMoveSignal inputForMoveSignal
+    )
     {
         _model = new ShipModel();
         _view = GetComponent<ShipView>();
-        _moveShipSignal = moveSignal;
+
+        _moveController = moveController;
+        _inputForMoveSignal = inputForMoveSignal;
 
         SubsribeTo();
     }
 
 
-    private void OnMoveReceived(object[] args)
+    private void OnInputReceived(object[] args)
     {
-        Debug.Log(GetType() + "I move uvove!!");
-        Vector3 v3 = (Vector3) args[0];
-        _model.UpdatePosition(v3);
-        _view.UpdatePosition(v3);
+        Vector3 direction = (Vector3) args[0];
+        _moveController.Move(_model, _view, direction);
     }
 
     /// <summary>
@@ -35,13 +42,14 @@ public class ShipController : MonoBehaviour, IReciveSignal
     /// </summary>
     public void SubsribeTo()
     {
-        _moveShipSignal.Subscribe(OnMoveReceived);
+        _inputForMoveSignal.Subscribe(OnInputReceived);
     }
 
     public void UnSubscribeTo()
     {
-        _moveShipSignal.Unsubscribe(OnMoveReceived);
+        _inputForMoveSignal.Unsubscribe(OnInputReceived);
     }
+
 
     private void OnDestroy()
     {
