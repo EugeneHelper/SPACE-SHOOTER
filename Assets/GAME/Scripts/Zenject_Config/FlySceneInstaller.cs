@@ -12,7 +12,6 @@ public class FlySceneInstaller : MonoInstaller
         // Регистрируем компоненты
         Container.Bind<InputController>().FromComponentInHierarchy().AsSingle();
         Container.Bind<ShipController>().FromComponentInHierarchy().AsSingle();
-        Container.Bind<MoveController>().AsSingle();
         
     }
 }
