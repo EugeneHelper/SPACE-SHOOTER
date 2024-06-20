@@ -6,11 +6,9 @@ public class FlySceneInstaller : MonoInstaller
 {
     public override void InstallBindings()
     {
-        Container.Bind<MoveShipSignal>().AsSingle();
-        Container.Bind<InputForMoveSignal>().AsSingle();
+       // Container.Bind<InputForMoveSignal>().AsSingle();
 
         // Регистрируем компоненты
-        Container.Bind<InputController>().FromComponentInHierarchy().AsSingle();
         Container.Bind<ShipController>().FromComponentInHierarchy().AsSingle();
         
     }

@@ -8,11 +8,22 @@
       <e p="Assets" t="Include">
         <e p="GAME" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Command" t="Include">
+              <e p="MoveCommand.cs" t="Include" />
+              <e p="MoveHorizontal.cs" t="Include" />
+            </e>
             <e p="Controllers" t="Include">
-              <e p="MoveController.cs" t="Include" />
+              <e p="IModel.cs" t="Include" />
+              <e p="IView.cs" t="Include" />
+              <e p="PlanetScript.cs" t="Include" />
+              <e p="SceneController.cs" t="Include" />
               <e p="ShipController.cs" t="Include" />
+            </e>
+            <e p="Model" t="Include">
               <e p="ShipModel.cs" t="Include" />
-              <e p="ShipView.cs" t="Include" />
+            </e>
+            <e p="Others" t="Include">
+              <e p="DontDestrOnLoad.cs" t="Include" />
             </e>
             <e p="Signals" t="Include">
               <e p="InputForMoveSignal.cs" t="Include" />
@@ -20,11 +31,18 @@
               <e p="ISignal.cs" t="Include" />
               <e p="MoveShipSignal.cs" t="Include" />
               <e p="Signal.cs" t="Include" />
+              <e p="TestSwitchToGameScene.cs" t="Include" />
+            </e>
+            <e p="View" t="Include">
+              <e p="ShipView.cs" t="Include" />
             </e>
             <e p="Zenject_Config" t="Include">
               <e p="FlySceneInstaller.cs" t="Include" />
               <e p="InputController.cs" t="Include" />
-              <e p="ReceiverOfSignal.cs" t="Include" />
+              <e p="LobbyMonoInstaller.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="GlobalInstaller.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
@@ -953,8 +971,106 @@
           <e p="ReadMe.txt" t="Include" />
         </e>
       </e>
+      <e p="JBooth.MicroSplat.Core.csproj" t="IncludeRecursive" />
+      <e p="JBooth.MicroSplat.Core.Editor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
-      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive">
+        <e p="com.jbooth.microsplat.core" t="Include">
+          <e p="Examples" t="Include">
+            <e p="Scene" t="Include">
+              <e p="MicroSplatData" t="Include">
+                <e p="MicroSplat.shader" t="Include" />
+                <e p="MicroSplat_Base.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="package.json" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="FeatureDescriptor.cs" t="Include" />
+              <e p="Fragments" t="Include">
+                <e p="microsplat_core_cbuffer.txt" t="Include" />
+                <e p="microsplat_properties_splat.txt" t="Include" />
+                <e p="microsplat_shared.txt" t="Include" />
+                <e p="microsplat_template_adapter.txt" t="Include" />
+                <e p="microsplat_template_chain.txt" t="Include" />
+                <e p="microsplat_template_shaderdesc.txt" t="Include" />
+                <e p="microsplat_template_shared.txt" t="Include" />
+                <e p="microsplat_terrain_body.txt" t="Include" />
+                <e p="microsplat_terrain_core_mainfunc.txt" t="Include" />
+                <e p="microsplat_terrain_core_properties.txt" t="Include" />
+                <e p="microsplat_terrain_core_shared.txt" t="Include" />
+                <e p="microsplat_terrain_core_vertex.txt" t="Include" />
+                <e p="microsplat_terrain_core_vertexdata.txt" t="Include" />
+                <e p="Standard" t="Include">
+                  <e p="microsplat_template_standard.txt" t="Include" />
+                  <e p="microsplat_template_standard_commonHLSL.txt" t="Include" />
+                  <e p="microsplat_template_standard_passforward.txt" t="Include" />
+                  <e p="microsplat_template_standard_passforwardadd.txt" t="Include" />
+                  <e p="microsplat_template_standard_passgbuffer.txt" t="Include" />
+                  <e p="microsplat_template_standard_passmeta.txt" t="Include" />
+                  <e p="microsplat_template_standard_passshadow.txt" t="Include" />
+                </e>
+              </e>
+              <e p="HDTextureImporter.cs" t="Include" />
+              <e p="InternalShaders" t="Include">
+                <e p="ClearNonNormalData.shader" t="Include" />
+                <e p="HeightFromNormal.shader" t="Include" />
+                <e p="MergeInChannel.shader" t="Include" />
+                <e p="NormalSAOFromDiffuse.shader" t="Include" />
+                <e p="NormalSAOFromHeight.shader" t="Include" />
+                <e p="NormalSAOFromNormal.shader" t="Include" />
+              </e>
+              <e p="IRenderLoopAdapter.cs" t="Include" />
+              <e p="JBooth.MicroSplat.Core.Editor.asmdef" t="Include" />
+              <e p="MicroSplatBaseFeatures.cs" t="Include" />
+              <e p="MicroSplatCompressor.cs" t="Include" />
+              <e p="MicroSplatDefines.cs" t="Include" />
+              <e p="MicroSplatGenerator.cs" t="Include" />
+              <e p="MicroSplatShaderGUI.cs" t="Include" />
+              <e p="MicroSplatShaderGUI_Compiler.cs" t="Include" />
+              <e p="MicroSplatShaderGUI_PerTex.cs" t="Include" />
+              <e p="MicroSplatTerrainEditor.cs" t="Include" />
+              <e p="MicroSplatTerrainEditor_Baking.cs" t="Include" />
+              <e p="MicroSplatTerrainEditor_Convert.cs" t="Include" />
+              <e p="MicroSplatTerrainEditor_SplatUtilities.cs" t="Include" />
+              <e p="MicroSplatTerrainEditor_TerrainDesc.cs" t="Include" />
+              <e p="MicroSplatTerrainEditor_WeightLimiting.cs" t="Include" />
+              <e p="MicroSplatUtilities.cs" t="Include" />
+              <e p="RenderPipelineDefine.cs" t="Include" />
+              <e p="SurfaceShaderRenderLoopAdapter.cs" t="Include" />
+              <e p="TerrainPainter" t="Include">
+                <e p="TerrainPainter_GUI.cs" t="Include" />
+                <e p="TerrainPainter_Painting.cs" t="Include" />
+                <e p="TerrainPainterWindow.cs" t="Include" />
+                <e p="TerrainPaintJob.cs" t="Include" />
+              </e>
+              <e p="TextureArrayConfigEditor.cs" t="Include" />
+              <e p="TextureArrayPreprocessor.cs" t="Include" />
+            </e>
+            <e p="GlitterLight.cs" t="Include" />
+            <e p="JBooth.MicroSplat.Core.asmdef" t="Include" />
+            <e p="MicroSplatKeywords.cs" t="Include" />
+            <e p="MicroSplatObject.cs" t="Include" />
+            <e p="MicroSplatPropData.cs" t="Include" />
+            <e p="MicroSplatRuntimeUtil.cs" t="Include" />
+            <e p="MicroSplatTerrain.cs" t="Include" />
+            <e p="TextureArrayConfig.cs" t="Include" />
+            <e p="VegetationStudio" t="Include">
+              <e p="Editor" t="Include">
+                <e p="JBooth.MicroSplat.VegetationStudio.Editor.asmref" t="Include" />
+                <e p="microsplat_cbuffer_vsgrassmap.txt" t="Include" />
+                <e p="microsplat_cbuffer_vsshadowmap.txt" t="Include" />
+                <e p="microsplat_func_vsgrassmap.txt" t="Include" />
+                <e p="microsplat_func_vsshadowmap.txt" t="Include" />
+                <e p="microsplat_properties_vsgrassmap.txt" t="Include" />
+                <e p="microsplat_properties_vsshadowmap.txt" t="Include" />
+                <e p="MicroSplatVegetationStudio.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="SPACE SHOOTER.sln" t="IncludeFlat" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
       <e p="Zenject-Editor.csproj" t="IncludeRecursive" />
