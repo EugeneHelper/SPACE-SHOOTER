@@ -11,53 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d52c188-c1a2-4e50-aa51-e95c58143726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipType.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Player/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scene/FlyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scene/FlyScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scene/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scene/LobbyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command/MoveCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command/MoveCommand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command/MoveHorizontal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command/MoveHorizontal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/PlanetScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/PlanetScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/SceneController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/SceneController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Model.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Model/ShipModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Model/ShipModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Others.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Others/DontDestrOnLoad.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Others/DontDestrOnLoad.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/IReciveSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/IReciveSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/ISignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/ISignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputForMoveSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputForMoveSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/MoveShipSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/MoveShipSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/Signal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/Signal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/TestSwitchToGameScene.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/TestSwitchToGameScene.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/View.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/View/ShipView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/View/ShipView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.jbooth.microsplat.core/Examples/Scene/MicroSplatData/MicroSplat_propdata.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.jbooth.microsplat.core/Examples/Scene/MicroSplatData/MicroSplat_propdata.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +40,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Flow/Options/UnitBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55FBBBD1-7B72-4C15-B6AB-E8C1A3E3289C/94/4025f001/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Products/ProductContainer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/com.jbooth.microsplat.core/Scripts/MicroSplatObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -107,13 +81,15 @@
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/Resources/GlobalInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipType.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipAbstrModel.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs" />
       </list>
     </option>
   </component>

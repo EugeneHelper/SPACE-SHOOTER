@@ -11,6 +11,7 @@
             <e p="Common" t="Include">
               <e p="InputController.cs" t="Include" />
               <e p="SceneController.cs" t="Include" />
+              <e p="ShipData.cs" t="Include" />
             </e>
             <e p="GameScene" t="Include">
               <e p="Command" t="Include">
@@ -23,6 +24,7 @@
               </e>
               <e p="Model" t="Include">
                 <e p="ShipModel.cs" t="Include" />
+                <e p="ShipModelWithWeapon.cs" t="Include" />
               </e>
               <e p="Others" t="Include">
                 <e p="DontDestrOnLoad.cs" t="Include" />
@@ -40,12 +42,12 @@
               </e>
             </e>
             <e p="LobbyScene" t="Include">
-              <e p="IShipModel.cs" t="Include" />
+              <e p="ShipAbstrModel.cs" t="Include" />
               <e p="ShipModel.cs" t="Include" />
               <e p="ShipSelectControllerUI.cs" t="Include" />
               <e p="ShipSelecter.cs" t="Include" />
+              <e p="ShipType.cs" t="Include" />
             </e>
-            <e p="ShipData.cs" t="Include" />
             <e p="Zenject_Config" t="Include">
               <e p="FlySceneInstaller.cs" t="Include" />
               <e p="LobbyMonoInstaller.cs" t="Include" />

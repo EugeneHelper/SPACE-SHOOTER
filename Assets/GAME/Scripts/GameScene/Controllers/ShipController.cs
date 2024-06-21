@@ -15,6 +15,7 @@ public class ShipController : MonoBehaviour, IReciveSignal
     [Inject]
     public void Construct(InputForMoveSignal inputForMoveSignal)
     {
+    //Todo model inject 
         _model = new ShipModel();
         _view = GetComponent<ShipView>();
         _inputForMoveSignal = inputForMoveSignal;
