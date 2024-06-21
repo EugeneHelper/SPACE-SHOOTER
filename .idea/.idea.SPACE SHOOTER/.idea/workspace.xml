@@ -11,19 +11,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d52c188-c1a2-4e50-aa51-e95c58143726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/TestSwitchToGameScene.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/TestSwitchToGameScene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scene/FlyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scene/FlyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputForMoveSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputForMoveSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/MoveShipSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/MoveShipSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/ReceiverOfSignal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/ReceiverOfSignal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scenes/SpaceFighterSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scenes/SpaceFighterSettings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scene/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scene/LobbyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command/MoveCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command/MoveCommand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command/MoveHorizontal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Command/MoveHorizontal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/PlanetScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/PlanetScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/SceneController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/SceneController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Model/ShipModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Model/ShipModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Others.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Others/DontDestrOnLoad.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Others/DontDestrOnLoad.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/IReciveSignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/IReciveSignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/ISignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/ISignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputForMoveSignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputForMoveSignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/MoveShipSignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/MoveShipSignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/Signal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/Signal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/TestSwitchToGameScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Signals/TestSwitchToGameScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/View.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/View/ShipView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/View/ShipView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.jbooth.microsplat.core/Examples/Scene/MicroSplatData/MicroSplat_propdata.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.jbooth.microsplat.core/Examples/Scene/MicroSplatData/MicroSplat_propdata.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +70,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Flow/Options/UnitBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Packages/com.jbooth.microsplat.core/Scripts/MicroSplatObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Others/DontDestrOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Signals/ISignal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55FBBBD1-7B72-4C15-B6AB-E8C1A3E3289C/94/4025f001/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Signals/Signal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Signals/InputForMoveSignal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Controllers/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Products/ProductContainer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/com.jbooth.microsplat.core/Scripts/MicroSplatObject.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,6 +106,14 @@
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Others/DontDestrOnLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/Resources/GlobalInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +162,8 @@
       <workItem from="1718204676888" duration="1059000" />
       <workItem from="1718205893660" duration="26143000" />
       <workItem from="1718461832912" duration="10231000" />
-      <workItem from="1718827786141" duration="6813000" />
+      <workItem from="1718827786141" duration="7440000" />
+      <workItem from="1718984252175" duration="3179000" />
     </task>
     <servers />
   </component>
@@ -148,13 +185,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="601" y="114" key="RiderGenerateDialog" timestamp="1718634089195">
+    <state x="601" y="114" key="RiderGenerateDialog" timestamp="1718988794581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="601" y="114" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1718634089195" />
-    <state x="419" y="145" width="698" height="534" key="find.popup" timestamp="1718450641984">
+    <state x="601" y="114" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1718988794581" />
+    <state x="419" y="145" width="698" height="534" key="find.popup" timestamp="1718988662822">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="419" y="145" width="698" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1718450641984" />
+    <state x="419" y="145" width="698" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1718988662822" />
   </component>
 </project>

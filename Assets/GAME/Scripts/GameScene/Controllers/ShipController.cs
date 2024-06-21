@@ -27,7 +27,7 @@ public class ShipController : MonoBehaviour, IReciveSignal
     {
         Vector3 direction = (Vector3) args[0];
 
-        MoveCommand moveHorizontal = new MoveHorizontal(this.transform, direction, _model.Speed);
+        MoveCommand moveHorizontal = new MoveHorizontal(this.transform, direction, _model.ShipSpeed);
         moveHorizontal.Execute();
        
         _model.UpdatePosition(this.transform.position);
