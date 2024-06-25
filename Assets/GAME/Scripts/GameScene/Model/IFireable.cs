@@ -1,0 +1,4 @@
+﻿interface IFireable
+{
+    void Fire();
+}

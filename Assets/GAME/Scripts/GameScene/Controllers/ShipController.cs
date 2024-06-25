@@ -6,20 +6,23 @@ using Zenject;
 
 public class ShipController : MonoBehaviour, IReciveSignal
 {
-    private ShipModel _model;
-    private ShipView _view;
+    private ShipAbstrModel _model;
     
     private InputForMoveSignal _inputForMoveSignal;
-
-
+    
     [Inject]
     public void Construct(InputForMoveSignal inputForMoveSignal)
     {
     //Todo model inject 
-        _model = new ShipModel();
-        _view = GetComponent<ShipView>();
-        _inputForMoveSignal = inputForMoveSignal;
+        
+        GameObject selectedShipPrefab = GameState.SelectedShipPrefab;
 
+        var ship = Instantiate(selectedShipPrefab, gameObject.transform);
+        
+        _model = ship.GetComponentInChildren<ShipAbstrModel>();
+        
+        _inputForMoveSignal = inputForMoveSignal;
+        
         SubsribeTo();
     }
 
@@ -28,10 +31,11 @@ public class ShipController : MonoBehaviour, IReciveSignal
     {
         Vector3 direction = (Vector3) args[0];
 
-        MoveCommand moveHorizontal = new MoveHorizontal(this.transform, direction, _model.ShipSpeed);
+        MoveCommand moveHorizontal = new MoveHorizontal(this.transform, direction, _model.ShipSpeed );
         moveHorizontal.Execute();
        
-        _model.UpdatePosition(this.transform.position);
+        Debug.Log(_model.GetType());
+        //_model.UpdatePosition(this.transform.position);
     }
 
     /// <summary>

@@ -19,12 +19,16 @@
                 <e p="MoveHorizontal.cs" t="Include" />
               </e>
               <e p="Controllers" t="Include">
+                <e p="GameState.cs" t="Include" />
                 <e p="PlanetScript.cs" t="Include" />
+                <e p="SaveSelectedShipCommand.cs" t="Include" />
                 <e p="ShipController.cs" t="Include" />
               </e>
               <e p="Model" t="Include">
-                <e p="ShipModel.cs" t="Include" />
+                <e p="HealthShip.cs" t="Include" />
+                <e p="IFireable.cs" t="Include" />
                 <e p="ShipModelWithWeapon.cs" t="Include" />
+                <e p="SpeedShip.cs" t="Include" />
               </e>
               <e p="Others" t="Include">
                 <e p="DontDestrOnLoad.cs" t="Include" />
@@ -42,10 +46,10 @@
               </e>
             </e>
             <e p="LobbyScene" t="Include">
+              <e p="LobbyManagerUI.cs" t="Include" />
+              <e p="LobbySelectedShipInfoController.cs" t="Include" />
               <e p="ShipAbstrModel.cs" t="Include" />
-              <e p="ShipModel.cs" t="Include" />
-              <e p="ShipSelectControllerUI.cs" t="Include" />
-              <e p="ShipSelecter.cs" t="Include" />
+              <e p="ShipSelecterController.cs" t="Include" />
               <e p="ShipType.cs" t="Include" />
             </e>
             <e p="Zenject_Config" t="Include">

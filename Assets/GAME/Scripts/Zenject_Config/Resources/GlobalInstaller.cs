@@ -8,12 +8,14 @@ public class GlobalInstaller : MonoInstaller
     {
         //Signals (Don't use the same signal in the different SceneContext)
         Container.Bind<TestSwitchToGameScene>().AsSingle();
-        Container.Bind<ShipFlewToPlanetSignal>().AsSingle();
+        Container.Bind<ShipFlewToPlanetSignal>().AsSingle().NonLazy();
         Container.Bind<InputForMoveSignal>().AsSingle();
         
         //Controllers
         Container.Bind<InputController>().FromComponentInHierarchy().AsSingle();
         Container.Bind<SceneController>().FromComponentInHierarchy().AsSingle();
+        
+        
 
     }
 }

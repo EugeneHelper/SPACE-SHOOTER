@@ -1,5 +1,6 @@
 using GAME.Scripts.Signals;
 using GAME.Scripts.Zenject_Config;
+using Unity.VisualScripting;
 using Zenject;
 
 public class FlySceneInstaller : MonoInstaller
@@ -10,6 +11,6 @@ public class FlySceneInstaller : MonoInstaller
 
         // Регистрируем компоненты
         Container.Bind<ShipController>().FromComponentInHierarchy().AsSingle();
-        
+        Container.Bind<ShipAbstrModel>().FromInstance(GameState.SelectedShipPrefab.GetComponent<ShipAbstrModel>()).AsSingle().NonLazy();
     }
 }

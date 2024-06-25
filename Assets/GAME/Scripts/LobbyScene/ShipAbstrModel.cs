@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Serialization;
 
 public abstract class ShipAbstrModel : MonoBehaviour
 {
@@ -8,5 +9,10 @@ public abstract class ShipAbstrModel : MonoBehaviour
     public GameObject ShipPrefab;
     public int ShipHealth;
     public int ShipSpeed;
-    public Vector3 Position;
+    public Vector3 position;
+    
+    public void UpdatePosition(Vector3 newPosition)
+    {
+       position = newPosition;
+    }
 }

@@ -11,23 +11,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d52c188-c1a2-4e50-aa51-e95c58143726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/GameState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/GameState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/SaveSelectedShipCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/SaveSelectedShipCommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/HealthShip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/HealthShip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/IFireable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/IFireable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/SpeedShip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/SpeedShip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyManagerUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyManagerUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecterController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/StarSparrow17.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/StarSparrow17.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/StarSparrow4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/StarSparrow4.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scene/FlyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scene/FlyScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scene/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scene/LobbyScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipAbstrModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipAbstrModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecterController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/Resources/GlobalInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/Resources/GlobalInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +58,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Flow/Options/UnitBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55FBBBD1-7B72-4C15-B6AB-E8C1A3E3289C/94/4025f001/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Products/ProductContainer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/com.jbooth.microsplat.core/Scripts/MicroSplatObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/467A840A-914A-4707-8E4A-E9B0B1E8779E/a6/2517ca66/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55FBBBD1-7B72-4C15-B6AB-E8C1A3E3289C/94/4025f001/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Products/ProductContainer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecterController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,20 +92,30 @@
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestDestructionOrder/ProjectInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/GlobalInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Others/DontDestrOnLoad.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/Resources/GlobalInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IModel.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/ShipData.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipType.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/IShipModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipAbstrModel.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/IFireable.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/SaveSelectedShipCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/Resources/GlobalInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecterControllerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipAbstrModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyIconController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbySelectedShipInfoController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyManagerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +128,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -140,6 +168,9 @@
       <workItem from="1718461832912" duration="10231000" />
       <workItem from="1718827786141" duration="7440000" />
       <workItem from="1718984252175" duration="3179000" />
+      <workItem from="1719050206470" duration="10051000" />
+      <workItem from="1719227841567" duration="8704000" />
+      <workItem from="1719325532374" duration="1821000" />
     </task>
     <servers />
   </component>
@@ -161,6 +192,74 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="538" height="464" key="DebuggerActiveHint" timestamp="1719232983035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="538" height="464" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1719232983035" />
+    <state width="1493" height="299" key="GridCell.Tab.0.bottom" timestamp="1719252802220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1719252802220" />
+    <state width="1493" height="299" key="GridCell.Tab.0.center" timestamp="1719252802220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1719252802220" />
+    <state width="1493" height="299" key="GridCell.Tab.0.left" timestamp="1719252802220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1719252802220" />
+    <state width="1493" height="299" key="GridCell.Tab.0.right" timestamp="1719252802220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1719252802220" />
+    <state width="1493" height="299" key="GridCell.Tab.1.bottom" timestamp="1719252802220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1719252802220" />
+    <state width="1493" height="299" key="GridCell.Tab.1.center" timestamp="1719252802220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1719252802220" />
+    <state width="1493" height="299" key="GridCell.Tab.1.left" timestamp="1719252802220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1719252802220" />
+    <state width="1493" height="299" key="GridCell.Tab.1.right" timestamp="1719252802220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1719252802220" />
+    <state width="1493" height="299" key="GridCell.Tab.2.bottom" timestamp="1719252802221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1719252802221" />
+    <state width="1493" height="299" key="GridCell.Tab.2.center" timestamp="1719252802221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1719252802221" />
+    <state width="1493" height="299" key="GridCell.Tab.2.left" timestamp="1719252802221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1719252802221" />
+    <state width="1493" height="299" key="GridCell.Tab.2.right" timestamp="1719252802221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1719252802221" />
+    <state width="1493" height="299" key="GridCell.Tab.3.bottom" timestamp="1719252802221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1719252802221" />
+    <state width="1493" height="299" key="GridCell.Tab.3.center" timestamp="1719252802221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1719252802221" />
+    <state width="1493" height="299" key="GridCell.Tab.3.left" timestamp="1719252802221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1719252802221" />
+    <state width="1493" height="299" key="GridCell.Tab.3.right" timestamp="1719252802221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="299" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1719252802221" />
     <state x="601" y="114" key="RiderGenerateDialog" timestamp="1718988794581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -169,5 +268,28 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="419" y="145" width="698" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1718988662822" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1719241318032">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1719241318032" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs</url>
+          <line>23</line>
+          <properties documentPath="D:\A-Devs\SPACE SHOOTER\Assets\GAME\Scripts\GameScene\Controllers\ShipController.cs" initialLine="21">
+            <startOffsets>
+              <option value="634" />
+            </startOffsets>
+            <endOffsets>
+              <option value="675" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
