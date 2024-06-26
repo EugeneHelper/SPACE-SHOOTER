@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public abstract class ShipAbstrModel : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public abstract class ShipAbstrModel : MonoBehaviour
 
     public string ShipName;
     public GameObject ShipPrefab;
+    public Texture Texture;
     public int ShipHealth;
     public int ShipSpeed;
     public Vector3 position;

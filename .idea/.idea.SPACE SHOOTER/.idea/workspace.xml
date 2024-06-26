@@ -11,41 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d52c188-c1a2-4e50-aa51-e95c58143726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/GameState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/GameState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/SaveSelectedShipCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/SaveSelectedShipCommand.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/HealthShip.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/HealthShip.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/IFireable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/IFireable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/SpeedShip.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/SpeedShip.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyManagerUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyManagerUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecterController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPACE SHOOTER/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/StarSparrow17.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/StarSparrow17.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/StarSparrow4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/StarSparrow4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scene/FlyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scene/FlyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/Models/HealthShip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/Models/HealthShip.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/Models/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/Models/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/Models/SpeedShip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/Models/SpeedShip.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/Models/WeaponShip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Ships/Models/WeaponShip.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scene/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scene/LobbyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/SaveSelectedShipCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/SaveSelectedShipCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbySelectedShipInfoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbySelectedShipInfoController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipAbstrModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipAbstrModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecterController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/Resources/GlobalInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/Resources/GlobalInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,18 +80,18 @@
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Model/ShipModelWithWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelectControllerUI.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/SaveSelectedShipCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/Resources/GlobalInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecterControllerUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipAbstrModel.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/FlySceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/ShipController.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipSelecterController.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyIconController.cs" />
-        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbySelectedShipInfoController.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbyManagerUI.cs" />
         <option value="$PROJECT_DIR$/Assets/GAME/Scripts/Zenject_Config/LobbyMonoInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/ShipAbstrModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/LobbyScene/LobbySelectedShipInfoController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/GAME/Scripts/GameScene/Controllers/SaveSelectedShipCommand.cs" />
       </list>
     </option>
   </component>
@@ -170,7 +146,7 @@
       <workItem from="1718984252175" duration="3179000" />
       <workItem from="1719050206470" duration="10051000" />
       <workItem from="1719227841567" duration="8704000" />
-      <workItem from="1719325532374" duration="1821000" />
+      <workItem from="1719325532374" duration="4043000" />
     </task>
     <servers />
   </component>

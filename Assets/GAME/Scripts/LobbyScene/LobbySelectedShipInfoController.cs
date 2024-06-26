@@ -29,6 +29,6 @@ public class LobbySelectedShipInfoController : MonoBehaviour
 
     private void SetSelectedShipImage()
     {
-        
+        _selectedShipImage.texture = _selectedModel.Texture;
     }
 }
